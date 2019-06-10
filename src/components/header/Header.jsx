@@ -14,8 +14,10 @@ const Header = ({itemTotal}) => {
         </ul>
       </nav>
       <div className="basket-container">
-        <i className="fa fa-shopping-basket btn__baseket" />
-        <span className={`cart-number ${itemTotal ? "cart-number--active" : ""}`}>{itemTotal}</span>
+        <Link to="/shopping-cart">
+          <i className="fa fa-shopping-basket btn__baseket" />
+        </Link>
+          <span className={`cart-number ${itemTotal ? "cart-number--active" : ""}`}>{itemTotal}</span>
       </div>
     </header>
   );
