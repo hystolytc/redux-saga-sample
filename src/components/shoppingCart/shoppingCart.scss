@@ -1,0 +1,55 @@
+.shopping-cart-container {
+  margin-right: 7%;
+  margin-left: 7%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.shopping-cart__table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+
+
+}
+
+thead {
+  background: orange;
+
+  & th:first-child {
+    width: 100px;
+  }
+}
+
+tr > th, tr > td{
+  padding: 10px 0;
+}
+
+tbody > tr:nth-child(2n-1) {
+  background-color: #f2f2f2;
+}
+
+.fig-little {
+  margin-left: 50px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+
+  &>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.btn--remove {
+  background: #FF3860;
+  font-size: 1rem;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

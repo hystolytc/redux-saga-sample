@@ -1,0 +1,57 @@
+.header-container {
+  height: 50px;
+  display: flex;
+  margin: 0 3% 0;
+}
+
+.nav-container {
+  flex-basis: 90%;
+  padding-left: 50px;
+
+  &>ul {
+    list-style: none;
+    display: flex;
+    line-height: 50px;
+    align-items: center;
+    padding: 0;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+  }
+}
+
+.basket-container {
+  display: flex;
+  flex-basis: 10%;
+  font-size: 1.2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__baseket {
+  cursor: pointer;
+}
+
+.cart-number {
+  background-color: tomato;
+  width: 20px;
+  display: inline-block;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: -20px;
+  margin-left: -10px;
+  font-size: 1rem;
+  line-height: 20px;
+  display: none;
+}
+
+.cart-number--active {
+  display: block;
+}
