@@ -20,7 +20,7 @@ const ShoppingCart = ({items, onRemoveItem}) => {
             <tr key={item.id}>
               <td>
                 <figure className="fig-little">
-                  <img src={item.url} alt={item.name} />
+                  <img src={item.download_url} alt={item.name} />
                 </figure>
               </td>
               <td>{item.name}</td>

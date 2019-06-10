@@ -15,7 +15,7 @@ const CardList = ({products, onAddItem}) => {
       {products.map(product => (
         <Card
           key={product.id}
-          img={product.url}
+          img={product.download_url}
           name={`Product ${product.id}`}
           price={product.id}
           onAddItem={() => 
